@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  print-name:
+  Print-Name:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
