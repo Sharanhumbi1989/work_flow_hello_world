@@ -1,4 +1,4 @@
-name: Print-Name
+name: print-name
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  Print-Name:
+  print-name:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
